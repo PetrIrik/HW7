@@ -149,7 +149,7 @@ int main()
 	std::cout << "date1 = " << *date1 << std::endl;
 	std::cout << "date2 = " << *date2 << std::endl;
 
-	auto dates = maxDate(date1, date2);
+	auto dates = lastDate(date1, date2);
 	std::cout <<"date = " << *dates << std::endl;
 	std::cout << "date1: " << *date1 << std::endl;
 	std::cout << "date2: " << *date2 << std::endl << std::endl;

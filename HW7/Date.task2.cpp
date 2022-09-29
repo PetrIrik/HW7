@@ -1,7 +1,7 @@
 #include"Date.task2.h"
 
 
-std::shared_ptr<Date>maxDate(const std::shared_ptr<Date>& date1, const std::shared_ptr<Date>& date2)
+std::shared_ptr<Date>lastDate(const std::shared_ptr<Date>& date1, const std::shared_ptr<Date>& date2)
 {
 	if (date1.get()->GetYear() > date2.get()->GetYear())
 	{

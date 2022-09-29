@@ -185,6 +185,7 @@ int main()
 	char again = 'y';
 	while (again != 'n'&& again !='N')
 	{
+		system("cls");
 		aGame.Play();
 		std::cout << " Хотите сыграть снова? (Y/N) ";
 		std::cin >> again;

@@ -53,6 +53,13 @@ public:
 			std::cout << *pPlayer << std::endl;
 		}
 		std::cout << m_house << std::endl;
+		// раздает игрокам дополнительные карты
+
+		for (pPlayer = m_Players.begin(); pPlayer != m_Players.end(); ++pPlayer)
+		{
+			m_deck.AdditionalCards(*pPlayer);
+		}
+
 		//показываем  первую карту дилера
 		m_house.FilpFirstCard();
 		std::cout << std::endl << m_house;

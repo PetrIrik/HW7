@@ -175,7 +175,7 @@ int main()
 	std::string name;
 	for (int i = 0; i < numPlayer; ++i)
 	{
-		std::cout << "Введите ник" << i + 1;
+		std::cout << "Введите ник " << i + 1<< ' ';
 		std::cin >> name;
 		names.push_back(name);
 	}

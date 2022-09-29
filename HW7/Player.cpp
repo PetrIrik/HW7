@@ -9,7 +9,7 @@ Player::Player(const std::string& name) : GenericPlayer(name)
 const bool Player::IsHitting() const
 {
 	int cChoice;
-	std::cout << "Нужна карта?(y/n)" << std::endl;
+	std::cout << "Нужна карта?(y/n) " << std::endl;
 	do
 	{
 		cChoice = _getch();
